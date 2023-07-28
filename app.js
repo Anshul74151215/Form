@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const app = express();
 const PORT = process.env.PORT || 5000;
 const form = require("./models/Form");
-const formRoutes = require("./routes/formRoutes");
+const formRoutes = require("./Routes/formRoutes");
 // Middleware
 app.use(cors());
 app.use(bodyParser.json());
